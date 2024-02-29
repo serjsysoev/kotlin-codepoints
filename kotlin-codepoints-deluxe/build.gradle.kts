@@ -40,6 +40,8 @@ kotlin {
     tvosX64()
     tvosSimulatorArm64()
 
+    @Suppress("OPT_IN_USAGE")
+    wasm()
     wasm32()
 
     watchosArm32()
